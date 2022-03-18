@@ -3,5 +3,37 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "ngx-cmdev-barcode": {
+      "projectType": "library",
+      "root": "projects/ngx-cmdev-barcode",
+      "sourceRoot": "projects/ngx-cmdev-barcode/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-cmdev-barcode/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-cmdev-barcode/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-cmdev-barcode/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-cmdev-barcode/src/test.ts",
+            "tsConfig": "projects/ngx-cmdev-barcode/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-cmdev-barcode/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "ngx-cmdev-barcode"
 }
