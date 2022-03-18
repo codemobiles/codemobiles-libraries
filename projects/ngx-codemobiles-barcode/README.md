@@ -1,4 +1,4 @@
-# ngx-cmdev-barcode
+# ngx-codemobiles-barcode
 
 A barcode component for Angular 13+
 

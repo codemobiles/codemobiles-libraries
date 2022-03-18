@@ -30,8 +30,8 @@ type BarcodeType =
   | 'codabar';
 
 @Component({
-  selector: 'ngx-cmdev-barcode',
-  template: ` <div #bcElement [class]="cssClass"></div> `,
+  selector: 'ngx-codemobiles-barcode',
+  template: `<div #bcElement [class]="cssClass"></div>`,
   styles: [],
 })
 export class NgxCodemobilesBarcodeComponent implements AfterViewInit, OnChanges {
