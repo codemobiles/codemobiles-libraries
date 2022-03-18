@@ -20,6 +20,8 @@
       ],
       "ngx-codemobiles-barcode": [
         "dist/ngx-codemobiles-barcode/ngx-codemobiles-barcode",
+        "dist/ngx-codemobiles-barcode",
+        "dist/ngx-codemobiles-barcode/ngx-codemobiles-barcode",
         "dist/ngx-codemobiles-barcode"
       ]
     },

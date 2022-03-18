@@ -29,11 +29,11 @@ type BarcodeType =
   | 'pharmacode'
   | 'codabar';
 
-  @Component({
-    selector: 'ngx-cmdev-barcode',
-    template: ` <div #bcElement [class]="cssClass"></div> `,
-    styles: [],
-  })
+@Component({
+  selector: 'ngx-cmdev-barcode',
+  template: ` <div #bcElement [class]="cssClass"></div> `,
+  styles: [],
+})
 export class NgxCodemobilesBarcodeComponent implements AfterViewInit, OnChanges {
   @ViewChild('bcElement') bcElement?: ElementRef;
   @Input('bc-element-type') elementType: 'svg' | 'img' | 'canvas' = 'svg';

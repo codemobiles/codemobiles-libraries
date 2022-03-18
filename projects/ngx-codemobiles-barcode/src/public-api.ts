@@ -1,5 +1,5 @@
 /*
- * Public API Surface of ngx-cmdev-barcode
+ * Public API Surface of ngx-codemobiles-barcode
  */
 
 export * from './lib/ngx-codemobiles-barcode.component';
