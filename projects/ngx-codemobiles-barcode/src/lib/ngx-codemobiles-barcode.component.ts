@@ -34,7 +34,7 @@ type BarcodeType =
     template: ` <div #bcElement [class]="cssClass"></div> `,
     styles: [],
   })
-export class NgxCmdevBarcodeComponent implements AfterViewInit, OnChanges {
+export class NgxCodemobilesBarcodeComponent implements AfterViewInit, OnChanges {
   @ViewChild('bcElement') bcElement?: ElementRef;
   @Input('bc-element-type') elementType: 'svg' | 'img' | 'canvas' = 'svg';
   @Input('bc-class') cssClass = 'barcode'; // this should be done more elegantly

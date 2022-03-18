@@ -1,5 +1,5 @@
 {
-  "name": "ngx-cmdev-barcode",
+  "name": "ngx-codemobiles-barcode",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^13.2.0",

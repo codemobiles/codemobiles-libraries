@@ -17,6 +17,10 @@
       "ngx-cmdev-barcode": [
         "dist/ngx-cmdev-barcode/ngx-cmdev-barcode",
         "dist/ngx-cmdev-barcode"
+      ],
+      "ngx-codemobiles-barcode": [
+        "dist/ngx-codemobiles-barcode/ngx-codemobiles-barcode",
+        "dist/ngx-codemobiles-barcode"
       ]
     },
     "declaration": false,
